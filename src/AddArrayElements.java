@@ -20,11 +20,12 @@ public class AddArrayElements {
         for(;i<t;i++){
             int n = s.nextInt(); // for taking the limit of the array
             int arr[] = new int[n];
-            int j = 0;
+            int j = 0; // for updating the index value of the array
+            // for taking the input of the array
             for(; j<n; j++){
                 arr[j] = s.nextInt();
             }
-            printAddedElements(arr, n);
+            printAddedElements(arr, n); // calling the function and passing the values
         }
     }
 
