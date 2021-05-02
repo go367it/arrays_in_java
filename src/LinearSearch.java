@@ -10,6 +10,7 @@ public class LinearSearch {
         for(int i=0; i<arr.length; i++){
             if(arr[i] == find){
                 index = i;
+                break;
             }
         }
         return index;
@@ -23,7 +24,7 @@ public class LinearSearch {
     }
 
     // defining main function
-    public void main(String[] args){
+    public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         int t = s.nextInt(); // for taking no.of arrays
         int result[] = new int[t];
